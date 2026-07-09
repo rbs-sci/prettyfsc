@@ -1,5 +1,11 @@
 # prettyfsc
 FSC plotter: various output options including RELION and CryoSPARC styles
+
+Requires:
+- Python
+  - matplotlib
+  - numpy
+
 ```
 Usage: prettyfsc.py [OPTIONS] [OUTPUT_FILE]
 
