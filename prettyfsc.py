@@ -120,7 +120,7 @@ def plot_fsc(data, general_data, output_file='fsc_plot.svg', output_format='svg'
         color_05 = '#D62828'
     elif relion_mode:
         show_masked = True
-        show_unmasked = False
+        show_unmasked = True
         show_randomized = True
         show_corrected = True
         show_05_threshold = True
