@@ -27,3 +27,25 @@ Examples:
   python prettyfsc.py -cs -o cs_style_plot.svg
   python prettyfsc.py --no-randomized --no-unmasked
 ```
+Examples of plot output:
+--
+Default output:
+
+<img width="632" height="441" alt="zz_default_demo" src="https://github.com/user-attachments/assets/187f6d1e-d853-4372-8a73-0085b1ea01bb" />
+
+- Does not display unmasked FSC
+
+
+RELION-style output:
+
+<img width="632" height="441" alt="zz_rel_demo" src="https://github.com/user-attachments/assets/c4a2ca5f-002d-4186-89fb-ab01604c1897" />
+
+- Displays all FSC curves
+
+
+CryoSPARC-style output:
+
+<img width="632" height="441" alt="zz_cs_demo" src="https://github.com/user-attachments/assets/d61493bf-d92f-47b5-a8d1-0d9d7fc2fcb9" />
+
+- Does not display phase-randomised FSC curve
+- Does not display FSC = 0.5
